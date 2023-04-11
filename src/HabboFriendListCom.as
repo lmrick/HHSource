@@ -70,6 +70,7 @@ package
       public static var opened_to_web_popup_xml:Class = opened_to_web_popup;
       
       public static var pagelink_xml:Class = pagelink;
+   
       public static var main_window_xml:Class = main_window;
       
       public static var room_invite_confirm_xml:Class = class_2810;

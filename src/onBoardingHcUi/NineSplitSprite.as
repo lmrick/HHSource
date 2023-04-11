@@ -8,7 +8,6 @@ package onBoardingHcUi
    
    public class NineSplitSprite
    {
-      
       private static const border_sunk_png:Class = border_sunk_png;
       
       private static const dark_popup_png:Class = dark_popup_png;
@@ -83,7 +82,6 @@ package onBoardingHcUi
       
       public static var DARK_BALLOON:onBoardingHcUi.NineSplitSprite = new onBoardingHcUi.NineSplitSprite(DARK_BALLOON_BITMAP.bitmapData,new <int>[5,4,5],new <int>[11,1,5]);
        
-      
       private var _bitmapData:BitmapData;
       
       private var _widths:Vector.<int>;

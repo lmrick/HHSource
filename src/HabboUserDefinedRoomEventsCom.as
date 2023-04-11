@@ -149,7 +149,7 @@ package
       
       public static var ude_condition_inputs_18_xml:Class = ude_condition_inputs_18;
       
-      public static var ude_condition_inputs_24_xml:Class = ude_condition_inputs_24_;
+      public static var ude_condition_inputs_24_xml:Class = ude_condition_inputs_24;
       
       public static var ude_condition_inputs_25_xml:Class = ude_condition_inputs_25;
       

@@ -94,8 +94,11 @@ package
       public static var select_arrow_png:Class = select_arrow;
       
       public static var tag_l_png:Class = tag_l;
+   
       public static var tag_m_png:Class = tag_m;
+   
       public static var tag_r_png:Class = tag_r;
+  
       public static var tag_l_reactive_png:Class = class_2969;
       
       public static var tag_m_reactive_png:Class = class_2970;

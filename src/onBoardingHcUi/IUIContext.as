@@ -5,8 +5,6 @@ package onBoardingHcUi
    
    public interface IUIContext
    {
-       
-      
       function get stage() : Stage;
       
       function get debugText() : TextField;

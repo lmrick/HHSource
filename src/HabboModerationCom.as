@@ -32,6 +32,7 @@ package
       public static var roomvisits_frame_xml:Class = roomvisits_frame;
       
       public static var userclassification_frame_xml:Class = userclassification_frame;
+     
       public static var room_icon_png:Class = class_2809;
       
       public static var user_icon_png:Class = user_icon;

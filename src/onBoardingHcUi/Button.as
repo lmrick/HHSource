@@ -18,7 +18,6 @@ package onBoardingHcUi
       
       private static const button_inactive_png:Class = class_56;
        
-      
       private var _caption:String;
       
       private var _localizedText:String;

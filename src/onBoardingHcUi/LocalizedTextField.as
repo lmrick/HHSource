@@ -9,7 +9,6 @@ package onBoardingHcUi
       
       private static var _localizationManager:class_17;
        
-      
       protected var _localized:Boolean = false;
       
       private var _key:String;

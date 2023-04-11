@@ -43,13 +43,13 @@ package
       
       public static var purse_xml:Class = class_2776;
       
-      public static var settings_xml:Class = settings_xml ;
+      public static var settings_xml:Class = settings_xml;
       
       public static var setting_category_xml:Class = class_2873;
       
-      public static var purse_indicator_credits_xml:Class = purse_indicator_credits_xml ;
+      public static var purse_indicator_credits_xml:Class = purse_indicator_credits_xml;
       
-      public static var purse_indicator_pixels_xml:Class = purse_indicator_pixels_xml ;
+      public static var purse_indicator_pixels_xml:Class = purse_indicator_pixels_xml;
       
       public static var purse_indicator_seasonal_xml:Class = class_2775;
       
@@ -71,11 +71,11 @@ package
       
       public static var icon_credit_6_png:Class = class_2457;
       
-      public static var icon_pixel_0_png:Class = icon_pixel_0_png 0;
+      public static var icon_pixel_0_png:Class = icon_pixel_0_png;
       
-      public static var icon_pixel_1_png:Class = icon_pixel_1_png 3;
+      public static var icon_pixel_1_png:Class = icon_pixel_1_png;
       
-      public static var icon_pixel_2_png:Class = icon_pixel_2_png 4;
+      public static var icon_pixel_2_png:Class = icon_pixel_2_png;
       
       public static var icon_pixel_3_png:Class = icon_pixel_3_png;
       
@@ -93,7 +93,7 @@ package
       
       public static var offer_extension_xml:Class = offer_extension_xml;
       
-      public static var phonenumber_collect_xml:Class = collect_xml ;
+      public static var phonenumber_collect_xml:Class = collect_xml;
       
       public static var phonenumber_verify_xml:Class = class_3107;
       

@@ -116,6 +116,7 @@ package
       public static var moving_object_floating_xml:Class = moving_object_floating;
       
       public static var next_ltd_available_xml:Class = next_ltd_available;
+   
       public static var safety_quiz_promo_xml:Class = class_2830;
       
       public static var citizenship_welcome_xml:Class = class_1987;
@@ -153,6 +154,7 @@ package
       public static var generic_widget_xml:Class = class_2270;
       
       public static var widget_container_widget_xml:Class = widget_container_widget;
+    
       public static var element_bodytext_xml:Class = class_2065;
       
       public static var element_button_xml:Class = element_button;
@@ -166,6 +168,7 @@ package
       public static var element_spacing_xml:Class = element_spacing;
       
       public static var element_subcaption_xml:Class = element_subcaption;
+  
       public static var element_timer_xml:Class = element_timer;
       
       public static var element_title_xml:Class = class_2071;

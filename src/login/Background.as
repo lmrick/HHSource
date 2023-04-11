@@ -11,7 +11,6 @@ package login
    {
       
       private static const background_tiles_png:Class = hitchTile;
-       
       
       private var _backgroundImage:BitmapData;
       

@@ -31,7 +31,6 @@ package
       public static const CORE_RATIO:Number = 0.6;
       
       private static const INIT_STEPS:int = 3;
-       
       
       private var _core:ICore;
       
@@ -54,6 +53,7 @@ package
       public function HabboAirMain(param1:IHabboLoadingScreen, param2:Dictionary)
       {
          super();
+       
          _loadingScreen = param1;
          var_53 = param2;
          addEventListener("addedToStage",onAddedToStage);
@@ -67,15 +67,18 @@ package
          removeEventListener("complete",onCompleteEvent);
          removeEventListener("addedToStage",onAddedToStage);
          removeEventListener("exitFrame",onExitFrame);
+       
          if(_loadingScreen)
          {
             _loadingScreen.dispose();
             _loadingScreen = null;
          }
+      
          if(_core != null)
          {
             _core.events.removeEventListener("COMPONENT_EVENT_RUNNING",onCoreRunning);
          }
+    
          if(parent)
          {
             parent.removeChild(this);
@@ -86,11 +89,13 @@ package
       {
          try
          {
+          
             if(_core)
             {
                ErrorReportStorage.addDebugData("Unload","Client unloading started");
                _core.events.dispatchEvent(new Event("unload"));
             }
+
          }
          catch(error:Error)
          {
@@ -109,6 +114,7 @@ package
          class_14.log("Copyright: " + _loc2_);
          class_14.log("Version: " + _loc4_);
          class_14.log("VersionNumber: " + _loc6_);
+   
          try
          {
             init();
@@ -124,6 +130,7 @@ package
       private function init() : void
       {
          var _loc2_:String = Capabilities.version.toLowerCase();
+     
          if(_loc2_.indexOf("win") > -1 || _loc2_.indexOf("mac") > -1)
          {
          }
@@ -132,12 +139,14 @@ package
       
       protected function onExitFrame(param1:Event = null) : void
       {
+       
          if(_prepareCoreOnNextFrame)
          {
             _prepareCoreOnNextFrame = false;
             prepareCore();
             return;
          }
+       
          if(roomEngineReady && coreRunning)
          {
             dispose();
@@ -148,6 +157,7 @@ package
       {
          var _loc1_:class_491 = null;
          var _loc2_:XML = null;
+       
          try
          {
             _loc1_ = Capabilities.playerType != "StandAlone" ? new HabboCoreErrorReporter() : null;
@@ -213,6 +223,7 @@ package
             _core.prepareComponent(HabboNewNavigatorCom);
             addInitializationProgressListeners();
          }
+       
          catch(error:Error)
          {
             class_79.dispose();
@@ -222,6 +233,7 @@ package
       private function updateProgressBar() : void
       {
          var _loc1_:Number = NaN;
+       
          if(_loadingScreen != null)
          {
             _loc1_ = 0.6 + (_completedInitSteps + _loadedFiles) / _totalSteps * 0.4;
@@ -245,9 +257,11 @@ package
       private function initializeCore() : void
       {
          HabboAir.trackLoginStep("client.init.core.init");
+      
          try
          {
             _core.initialize();
+         
             if(false)
             {
                ExternalInterface.addCallback("unloading",unloading);

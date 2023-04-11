@@ -9,8 +9,6 @@ package onBoardingHcUi
    
    public class InputField extends Sprite
    {
-       
-      
       private var _style:int = 2;
       
       private var _disposed:Boolean;

@@ -50,6 +50,7 @@ package
       public static var style_console_selector_preview:Class = selector_preview;
       
       public static var style_firingmylazer_regpoints:Class = _regPoints;
+     
       public static var style_firingmylazer_chat_bubble_base:Class = chat_bubble_base;
       
       public static var style_firingmylazer_chat_bubble_pointer:Class = chat_bubble_pointer;
@@ -69,6 +70,7 @@ package
       public static var style_generic_chat_bubble_base:Class = chat_bubble_base;
       
       public static var style_generic_chat_bubble_pointer:Class = chat_bubble_pointer;
+    
       public static var style_generic_selector_preview:Class = class_2844;
       
       public static var style_gothicrose_regpoints:Class = _regPoints;
@@ -82,6 +84,7 @@ package
       public static var style_normal_regpoints:Class = class_1730;
       
       public static var style_normal_chat_bubble_base:Class = chat_bubble_base;
+    
       public static var style_normal_chat_bubble_color:Class = chat_bubble_color;
       
       public static var style_normal_chat_bubble_pointer:Class = class_1956;
@@ -205,6 +208,7 @@ package
       public static var style_zombie_hand_chat_bubble_base:Class = class_1895;
       
       public static var style_zombie_hand_chat_bubble_pointer:Class = chat_bubble_pointer;
+     
       public static var style_zombie_hand_selector_preview:Class = class_2872;
       
       public static var style_dragon_regpoints:Class = class_1740;

@@ -6,8 +6,6 @@ package splash
    
    public class PhotoSplashScreen extends Sprite
    {
-       
-      
       private var splashBgClass:Class;
       
       private var splashTopClass:Class;

@@ -38,7 +38,6 @@ package onBoardingHcUi
       public static const BUTTON_GREEN:String = "gfreen";
       
       public static const BUTTON_YELLOW:String = "yellow";
-       
       
       private var defaultBg:DisplayObject;
       

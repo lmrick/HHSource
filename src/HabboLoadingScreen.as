@@ -49,7 +49,6 @@ package
       public static const VERSION_TEXT_FIELD:String = "versionTextField";
       
       public static const const_256:String = "loadingNumberTextField";
-       
       
       private var var_303:Timer;
       
@@ -77,13 +76,18 @@ package
          var _loc13_:Sprite = null;
          var _loc9_:Array = null;
          super();
+       
          createFakeContext(param3);
+       
          var _loc14_:Sprite;
+        
          (_loc14_ = new Sprite()).name = "background";
          _loc14_.graphics.clear();
          _loc14_.graphics.beginFill(922908);
          _loc14_.graphics.drawRect(0,0,param1,param2);
+    
          addChild(_loc14_);
+   
          var_588 = new PhotoSplashScreen(this);
          var_588.name = "photoSplashScreen";
          addChild(var_588);
@@ -96,9 +100,11 @@ package
          _loc5_.graphics.drawRect(0,1,0,24);
          _loc5_.graphics.endFill();
          addChild(_loc5_);
+      
          var _loc10_:String = _localization.getLocalization("client.starting.revolving");
          var _loc4_:String = _localization.getLocalization("client.starting");
          var _loc11_:* = null;
+    
          if(_loc10_ != null)
          {
             _loc9_ = _loc10_.split("/");
@@ -106,6 +112,7 @@ package
             var_444 = _loc10_;
             _loc11_ = String(_loc9_[var_202]);
          }
+    
          else
          {
             _loc11_ = _loc4_;
