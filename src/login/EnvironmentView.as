@@ -18,7 +18,7 @@ package login
       
       private static const flag_icon_de:Class = flag_icons_de;
       
-      private static const flag_icon_dev:Class = class_81;
+      private static const flag_icon_dev:Class = flag_icons_dev;
       
       private static const flag_icon_en:Class = flag_icons_en;
       
@@ -36,7 +36,7 @@ package login
       
       private static const flag_icon_tr:Class = flag_icons_tr;
       
-      private static const flag_icon_selected:Class = class_82;
+      private static const flag_icon_selected:Class = flag_icon_selected;
       
       private static const ITEMS_PER_ROW:int = 9;
       
@@ -45,7 +45,6 @@ package login
       private static const THUMB_SCALE:Number = 0.5;
       
       private static const SPACING:int = 10;
-       
       
       private var var_46:Vector.<Bitmap>;
       
