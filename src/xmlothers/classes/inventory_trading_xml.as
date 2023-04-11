@@ -2,11 +2,11 @@ package
 {
    import flash.utils.ByteArray;
    
-   public class class_2530 extends ByteArray
+   public class inventory_trading_xml extends ByteArray
    {
        
       
-      public function class_2530()
+      public function inventory_trading_xml()
       {
          super();
       }

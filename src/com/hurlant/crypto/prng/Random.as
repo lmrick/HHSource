@@ -1,6 +1,5 @@
 package com.hurlant.crypto.prng
 {
-   import com.hurlant.util.class_1297;
    import flash.system.Capabilities;
    import flash.system.System;
    import flash.text.Font;

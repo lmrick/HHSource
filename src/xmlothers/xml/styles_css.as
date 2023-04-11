@@ -2,11 +2,11 @@ package
 {
    import flash.utils.ByteArray;
    
-   public class ude_addon_inputs_0_xml extends ByteArray
+   public class styles_css extends ByteArray
    {
        
       
-      public function ude_addon_inputs_0_xml()
+      public function styles_css()
       {
          super();
       }

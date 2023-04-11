@@ -11,7 +11,7 @@ package
       
       public static var manifest:Class = manifest;
       
-      public static var inventory_xml:Class = class_2531;
+      public static var inventory_xml:Class = inventory;
       
       public static var inventory_thumb_xml:Class = inventory_thumb;
       
@@ -19,21 +19,21 @@ package
       
       public static var inventory_effects_xml:Class = inventory_effects;
       
-      public static var inventory_trading_xml:Class = class_2530;
+      public static var inventory_trading_xml:Class = inventory_trading;
       
-      public static var inventory_trading_minimized_xml:Class = class_2529;
+      public static var inventory_trading_minimized_xml:Class = inventory_trading_minimized;
       
       public static var buy_marketplace_tokens_xml:Class = buy_marketplace_tokens;
       
       public static var make_marketplace_offer_xml:Class = make_marketplace_offer;
       
-      public static var marketplace_no_credits_xml:Class = class_2615;
+      public static var marketplace_no_credits_xml:Class = marketplace_no_credits;
       
-      public static var unseen_item_symbol_xml:Class = class_3078;
+      public static var unseen_item_symbol_xml:Class = unseen_item_symbol;
       
-      public static var fx_icon_1_png:Class = class_2193;
+      public static var fx_icon_1_png:Class = fx_icon_1;
       
-      public static var fx_icon_2_png:Class = class_2212;
+      public static var fx_icon_2_png:Class = fx_icon_2;
       
       public static var fx_icon_3_png:Class = class_2215;
       

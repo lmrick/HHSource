@@ -1,14 +1,15 @@
 package com.sulake.bootstrap
 {
-   import com.sulake.core.assets.class_21;
-   import com.sulake.core.runtime.class_31;
+
    import com.sulake.habbo.game.HabboGameManager;
+   import com.sulake.core.runtime.IContext;
+   import com.sulake.core.assets.IAssetLibrary;
    
    public class HabboGameManagerBootstrap extends HabboGameManager
    {
        
       
-      public function HabboGameManagerBootstrap(param1:class_31, param2:uint = 0, param3:class_21 = null)
+      public function HabboGameManagerBootstrap(param1:IContext, param2:uint = 0, param3:IAssetLibrary = null)
       {
          super(param1,param2,param3);
       }

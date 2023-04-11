@@ -18,6 +18,7 @@ package
       {
          super();
          this.var_1 = new ByteArray();
+       
          if(param1)
          {
             this.method_1(param1);
@@ -35,6 +36,7 @@ package
          var _loc3_:* = 0;
          var _loc4_:int = 0;
          _loc2_ = 0;
+     
          while(_loc2_ < 256)
          {
             this.var_1[_loc2_] = _loc2_;
@@ -42,6 +44,7 @@ package
          }
          _loc3_ = 0;
          _loc2_ = 0;
+       
          while(_loc2_ < 256)
          {
             _loc3_ = _loc3_ + this.var_1[_loc2_] + param1[_loc2_ % param1.length] & 255;
@@ -62,6 +65,7 @@ package
          _loc1_ = int(this.var_1[this.i]);
          this.var_1[this.i] = this.var_1[this.var_2];
          this.var_1[this.var_2] = _loc1_;
+     
          return this.var_1[_loc1_ + this.var_1[this.i] & 255];
       }
       
@@ -73,6 +77,7 @@ package
       public function method_3(param1:ByteArray) : void
       {
          var _loc2_:Number = 0;
+     
          while(_loc2_ < param1.length)
          {
             var _loc3_:* = _loc2_++;
@@ -88,9 +93,11 @@ package
       public function method_6() : void
       {
          var _loc1_:Number = 0;
+     
          if(this.var_1 != null)
          {
             _loc1_ = 0;
+        
             while(_loc1_ < this.var_1.length)
             {
                this.var_1[_loc1_] = Math.random() * 256;

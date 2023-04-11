@@ -2,11 +2,11 @@ package
 {
    import flash.utils.ByteArray;
    
-   public class use_product_menu_xml$2f3c040c8e43fe07e31562271cbe6fa6304743134 extends ByteArray
+   public class use_product_menu_xml extends ByteArray
    {
        
       
-      public function use_product_menu_xml$2f3c040c8e43fe07e31562271cbe6fa6304743134()
+      public function use_product_menu_xml()
       {
          super();
       }

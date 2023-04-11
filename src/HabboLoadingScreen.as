@@ -50,11 +50,11 @@ package
       
       public static const const_256:String = "loadingNumberTextField";
       
-      private var var_303:Timer;
+      private var _timer:Timer;
       
       private var _barProgression:int = 0;
       
-      private var var_588:PhotoSplashScreen;
+      private var _photoSplashScreen:PhotoSplashScreen;
       
       private var _disposed:Boolean = false;
       
@@ -88,9 +88,9 @@ package
     
          addChild(_loc14_);
    
-         var_588 = new PhotoSplashScreen(this);
-         var_588.name = "photoSplashScreen";
-         addChild(var_588);
+         _photoSplashScreen = new PhotoSplashScreen(this);
+         _photoSplashScreen.name = "photoSplashScreen";
+         addChild(_photoSplashScreen);
          (_loc5_ = new Sprite()).name = "fileLoadingBar";
          _loc5_.graphics.lineStyle(1,16777215,1,true);
          _loc5_.graphics.beginFill(2500143);
@@ -178,9 +178,9 @@ package
          removeEventListener("addedToStage",onAddedToStage);
          stage.addEventListener("resize",onResize);
          positionLoadingScreenDisplayElements();
-         var_303 = new Timer(750);
-         var_303.addEventListener("timer",onBarProgressEvent);
-         var_303.start();
+         _timer = new Timer(750);
+         _timer.addEventListener("timer",onBarProgressEvent);
+         _timer.start();
       }
       
       private function onResize(param1:Event) : void
@@ -258,8 +258,8 @@ package
          removeElement("habboLogo");
          removeElement("fileLoadingBar");
          removeElement("container");
-         var_303.stop();
-         var_303.removeEventListener("timer",onBarProgressEvent);
+         _timer.stop();
+         _timer.removeEventListener("timer",onBarProgressEvent);
          if(var_96)
          {
             var_96.dispose();

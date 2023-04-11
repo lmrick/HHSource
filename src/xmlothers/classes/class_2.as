@@ -30,26 +30,32 @@ package
          var _loc7_:String = new LocalConnection().domain;
          var _loc8_:Array = this.method_5().split("|");
          var _loc9_:int = 0;
+      
          while(_loc9_ < _loc8_.length)
          {
+          
             if((_loc12_ = (_loc8_[_loc9_] as String).toLocaleLowerCase()) == "?")
             {
                _loc5_ = true;
             }
+          
             else if(_loc12_.indexOf("localhost") != -1)
             {
                _loc4_ = true;
             }
+          
             else if(_loc12_.indexOf("http:") == 0 || _loc12_.indexOf("https:") == 0)
             {
                _loc2_.push(_loc12_);
             }
+         
             else
             {
                if(_loc3_ != "")
                {
                   _loc3_ += "|";
                }
+              
                if(_loc12_.indexOf("*.") == 0)
                {
                   _loc12_ = _loc12_.replace("*.","((\\w|-|_)+\\.)*");
@@ -58,6 +64,7 @@ package
             }
             _loc9_++;
          }
+      
          var _loc10_:RegExp = new RegExp("^http(|s)://((www)+\\.)*(" + _loc3_ + ")","i");
          if(_loc7_.toLowerCase() == "localhost")
          {
@@ -65,6 +72,7 @@ package
             {
                return true;
             }
+            
             if(_loc5_)
             {
                param1.width = 0;
@@ -72,10 +80,12 @@ package
                return false;
             }
          }
+        
          if(_loc10_.test(_loc6_))
          {
             return true;
          }
+       
          var _loc11_:int = 0;
          while(_loc11_ < _loc2_.length)
          {
@@ -85,12 +95,14 @@ package
             }
             _loc11_++;
          }
+     
          if(_loc3_.length == 0 && _loc2_.length == 0 && _loc5_)
          {
             return true;
          }
          param1.width = 0;
          param1.height = 0;
+     
          return false;
       }
       
@@ -100,6 +112,7 @@ package
          var _loc2_:class_3 = new class_3(new this.var_3() as ByteArray);
          _loc2_.method_5(_loc1_);
          _loc1_.position = 0;
+       
          return _loc1_.readUTFBytes(_loc1_.length);
       }
    }
