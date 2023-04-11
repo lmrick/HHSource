@@ -1,0 +1,99 @@
+package com.sulake.habbo.room.object.data
+{
+   import com.sulake.core.communication.messages.IMessageDataWrapper;
+   import com.sulake.habbo.room.IStuffData;
+   import com.sulake.room.object.IRoomObjectModel;
+   import com.sulake.room.object.IRoomObjectModelController;
+   
+   public class IntArrayStuffData extends class_1609 implements IStuffData
+   {
+      
+      public static const FORMAT_KEY:int = 5;
+      
+      private static const STATE_DEFAULT_INDEX:int = 0;
+       
+      
+      private var var_45:Array;
+      
+      public function IntArrayStuffData()
+      {
+         var_45 = [];
+         super();
+      }
+      
+      override public function initializeFromIncomingMessage(param1:IMessageDataWrapper) : void
+      {
+         var _loc3_:int = 0;
+         var _loc4_:int = 0;
+         var_45 = [];
+         var _loc2_:int = param1.readInteger();
+         _loc3_ = 0;
+         while(_loc3_ < _loc2_)
+         {
+            _loc4_ = param1.readInteger();
+            var_45.push(_loc4_);
+            _loc3_++;
+         }
+         super.initializeFromIncomingMessage(param1);
+      }
+      
+      override public function initializeFromRoomObjectModel(param1:IRoomObjectModel) : void
+      {
+         super.initializeFromRoomObjectModel(param1);
+         var_45 = param1.getNumberArray("furniture_data");
+      }
+      
+      override public function writeRoomObjectModel(param1:IRoomObjectModelController) : void
+      {
+         super.writeRoomObjectModel(param1);
+         param1.setNumber("furniture_data_format",5);
+         param1.setNumberArray("furniture_data",var_45);
+      }
+      
+      override public function getLegacyString() : String
+      {
+         if(!var_45)
+         {
+            return "";
+         }
+         return var_45[0];
+      }
+      
+      public function getValue(param1:int) : int
+      {
+         if(var_45 && param1 < var_45.length)
+         {
+            return var_45[param1];
+         }
+         return -1;
+      }
+      
+      public function setArray(param1:Array) : void
+      {
+         var_45 = param1;
+      }
+      
+      override public function compare(param1:IStuffData) : Boolean
+      {
+         var _loc3_:int = 0;
+         var _loc2_:class_1654 = param1 as class_1654;
+         if(!_loc2_)
+         {
+            return false;
+         }
+         _loc3_ = 0;
+         while(_loc3_ < var_45.length)
+         {
+            if(_loc3_ != 0)
+            {
+               if(var_45[_loc3_] != _loc2_.getValue(_loc3_))
+               {
+                  return false;
+               }
+            }
+            _loc3_++;
+         }
+         return true;
+      }
+   }
+}

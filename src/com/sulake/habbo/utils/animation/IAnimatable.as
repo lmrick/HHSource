@@ -1,0 +1,7 @@
+package com.sulake.habbo.utils.animation
+{
+   public interface IAnimatable
+   {  
+      function advanceTime(param1:Number) : void;
+   }
+}

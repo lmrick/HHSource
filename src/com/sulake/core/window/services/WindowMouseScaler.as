@@ -1,0 +1,25 @@
+package com.sulake.core.window.services
+{
+   import flash.display.DisplayObject;
+   
+   public class WindowMouseScaler extends WindowMouseOperator implements IMouseScalingService
+   {
+       
+      
+      public function WindowMouseScaler(param1:DisplayObject)
+      {
+         super(param1);
+      }
+      
+      override public function operate(param1:int, param2:int) : void
+      {
+         var _loc3_:int = 0;
+         if(true)
+         {
+            _loc3_ = !!(var_423 & 4096) ? param1 - 0 : 0;
+            var _loc4_:int = !!(var_423 & 8192) ? param2 - 0 : 0;
+            _window.scale(_loc3_,_loc4_);
+         }
+      }
+   }
+}

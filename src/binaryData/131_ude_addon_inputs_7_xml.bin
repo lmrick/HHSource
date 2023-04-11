@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?><layout name="ude_addon_inputs_7" width="228" height="87" version="0.1" uid="EB3B2BE8-78B7-A8CA-BC4B-87A3FCE7A2CE">
+  <window>
+    <container x="0" y="0" width="228" height="87" params="17" style="0" name="cont" color="0xffff3d3d3d" background="true">
+      <children>
+        <container x="0" y="0" width="228" height="1" params="16" style="0" name="ruler" color="0xffff232323" background="true"/>
+        <text x="5" y="5" width="218" height="13" params="786432" style="0" name="desc_txt" caption="%24%7Bwiredfurni.params.select_options%7D">
+          <variables>
+            <var key="antialias_type" value="advanced" type="String"/>
+            <var key="font_face" value="Volter Bold" type="String"/>
+            <var key="text_color" value="0xffffff" type="hex"/>
+            <var key="sharpness" value="0" type="Number"/>
+            <var key="thickness" value="0" type="Number"/>
+            <var key="word_wrap" value="true" type="Boolean"/>
+            <var key="kerning" value="false" type="Boolean"/>
+            <var key="spacing" value="0" type="Number"/>
+            <var key="leading" value="0" type="Number"/>
+          </variables>
+        </text>
+        <checkbox x="5" y="25" width="17" height="17" params="17" style="1" name="keep_altitude_checkbox"/>
+        <checkbox x="5" y="45" width="17" height="17" params="17" style="1" name="move_through_furni_checkbox"/>
+        <checkbox x="5" y="65" width="17" height="17" params="17" style="1" name="move_through_users_checkbox"/>
+        <text x="25" y="25" width="200" height="13" params="0" style="0" name="desc_txt" caption="%24%7Bwiredfurni.params.movephysics.keep_altitude%7D">
+          <variables>
+            <var key="antialias_type" value="advanced" type="String"/>
+            <var key="text_color" value="0xffffff" type="hex"/>
+            <var key="sharpness" value="0" type="Number"/>
+            <var key="thickness" value="0" type="Number"/>
+            <var key="word_wrap" value="true" type="Boolean"/>
+            <var key="kerning" value="false" type="Boolean"/>
+            <var key="spacing" value="0" type="Number"/>
+            <var key="leading" value="0" type="Number"/>
+          </variables>
+        </text>
+        <text x="25" y="45" width="200" height="13" params="0" style="0" name="desc_txt" caption="%24%7Bwiredfurni.params.movephysics.move_through_furni%7D">
+          <variables>
+            <var key="antialias_type" value="advanced" type="String"/>
+            <var key="text_color" value="0xffffff" type="hex"/>
+            <var key="sharpness" value="0" type="Number"/>
+            <var key="thickness" value="0" type="Number"/>
+            <var key="word_wrap" value="true" type="Boolean"/>
+            <var key="kerning" value="false" type="Boolean"/>
+            <var key="spacing" value="0" type="Number"/>
+            <var key="leading" value="0" type="Number"/>
+          </variables>
+        </text>
+        <text x="25" y="65" width="200" height="13" params="0" style="0" name="desc_txt" caption="%24%7Bwiredfurni.params.movephysics.move_through_users%7D">
+          <variables>
+            <var key="antialias_type" value="advanced" type="String"/>
+            <var key="text_color" value="0xffffff" type="hex"/>
+            <var key="sharpness" value="0" type="Number"/>
+            <var key="thickness" value="0" type="Number"/>
+            <var key="word_wrap" value="true" type="Boolean"/>
+            <var key="kerning" value="false" type="Boolean"/>
+            <var key="spacing" value="0" type="Number"/>
+            <var key="leading" value="0" type="Number"/>
+          </variables>
+        </text>
+      </children>
+    </container>
+  </window>
+</layout>

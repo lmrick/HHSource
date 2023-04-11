@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><layout name="ude_condition_inputs_1" width="228" height="80" version="0.1" uid="BB205F8E-7CBA-6031-CD85-09A1A32A0EA5">
+  <window>
+    <container x="0" y="0" width="228" height="80" params="17" style="0" name="cont" color="0xffff3d3d3d" background="true">
+      <children>
+        <container x="0" y="0" width="228" height="1" params="16" style="0" name="ruler" color="0xffff232323" background="true"/>
+        <text x="5" y="5" width="218" height="13" params="786432" style="0" name="desc_txt" caption="%24%7Bwiredfurni.params.requireall%7D">
+          <variables>
+            <var key="antialias_type" value="advanced" type="String"/>
+            <var key="font_face" value="Volter Bold" type="String"/>
+            <var key="text_color" value="0xffffff" type="hex"/>
+            <var key="sharpness" value="0" type="Number"/>
+            <var key="thickness" value="0" type="Number"/>
+            <var key="word_wrap" value="true" type="Boolean"/>
+            <var key="kerning" value="false" type="Boolean"/>
+            <var key="spacing" value="0" type="Number"/>
+            <var key="leading" value="0" type="Number"/>
+          </variables>
+        </text>
+        <selector x="5" y="21" width="218" height="60" params="17" style="0" name="eval_selector">
+          <children>
+            <radiobutton x="0" y="0" width="20" height="20" params="17" style="1" name="eval_0_radio"/>
+            <text x="20" y="0" width="190" height="35" params="786432" style="0" caption="%24%7Bwiredfurni.params.requireall.2%7D">
+              <variables>
+                <var key="antialias_type" value="advanced" type="String"/>
+                <var key="text_color" value="0xffffff" type="hex"/>
+                <var key="multiline" value="true" type="Boolean"/>
+                <var key="sharpness" value="0" type="Number"/>
+                <var key="thickness" value="0" type="Number"/>
+                <var key="word_wrap" value="true" type="Boolean"/>
+                <var key="kerning" value="false" type="Boolean"/>
+                <var key="spacing" value="0" type="Number"/>
+                <var key="leading" value="0" type="Number"/>
+              </variables>
+            </text>
+            <radiobutton x="0" y="30" width="20" height="20" params="17" style="1" name="eval_1_radio" id="1"/>
+            <text x="20" y="30" width="190" height="35" params="786432" style="0" caption="%24%7Bwiredfurni.params.requireall.3%7D">
+              <variables>
+                <var key="antialias_type" value="advanced" type="String"/>
+                <var key="text_color" value="0xffffff" type="hex"/>
+                <var key="multiline" value="true" type="Boolean"/>
+                <var key="sharpness" value="0" type="Number"/>
+                <var key="thickness" value="0" type="Number"/>
+                <var key="word_wrap" value="true" type="Boolean"/>
+                <var key="kerning" value="false" type="Boolean"/>
+                <var key="spacing" value="0" type="Number"/>
+                <var key="leading" value="0" type="Number"/>
+              </variables>
+            </text>
+          </children>
+        </selector>
+      </children>
+    </container>
+  </window>
+</layout>

@@ -1,0 +1,89 @@
+#================ L I V E ========================#
+# THIS FILE WILL BE EMBEDDED WITH THE LIVE CLIENT #
+#    Be very careful with the content changes!    #
+#=================================================#
+
+
+#====== LIVE ENVIRONMENTS ======
+
+connection.info.name.en=localhost
+connection.info.host.en=localhost
+connection.info.port.en=30000,30010,30011
+url.prefix.en=http://localhost
+pocket.api.en=http://localhost
+web.api.en=http://localhost
+facebook.application.id.en=
+web.terms_of_service.link.en=
+
+
+connection.info.name.pt=localhost
+connection.info.host.pt=localhost
+connection.info.port.pt=30000,38101,993
+url.prefix.pt=http://localhost
+pocket.api.pt=http://localhost
+web.api.pt=http://localhost
+facebook.application.id.pt=
+web.terms_of_service.link.pt=
+
+
+# S2 (Sandbox needs to be here for the initial test release)
+connection.info.name.s2=Sandbox
+connection.info.host.s2=localhost
+connection.info.port.s2=30000,5222,3724,8080,1863,6112,30010,30011
+url.prefix.s2=http://localhost
+pocket.api.s2=http://localhost
+web.api.s2=http://localhost
+facebook.application.id.s2=
+
+connection.info.host.duke=localhost
+connection.info.port.duke=30300
+url.prefix.duke=http://localhost
+connection.info.host.s1=localhost
+connection.info.port.s1=30000
+url.prefix.s1=http://localhost
+connection.info.host.d63=localhost
+connection.info.port.d63=30200
+url.prefix.d63=http://localhost
+connection.info.host.dev=localhost
+connection.info.port.dev=30400
+url.prefix.dev=http://localhost
+connection.info.host.xd=localhost
+connection.info.port.xd=30000,30001
+url.prefix.xd=http://localhost
+
+#======== CONFIGURATIONS ============
+
+use.sso=false
+
+comufy.enabled=false
+identityTracking.enabled=false
+processlog.enabled=false
+interstitial.enabled=false
+
+lagWarninglog.enabled=false
+monitor.garbage.collection=false
+performancetest.distribution.enabled=false
+
+hotelview.banner.url=${url.prefix}/gamedata/supersecret
+external.variables.txt=${url.prefix}/gamedata/external_variables/1
+external.texts.txt=${url.prefix}/gamedata/external_flash_texts/1
+
+gamedata.hashes.url=${url.prefix}/gamedata/hashes
+
+client.fatal.error.url=${url.prefix}/flash_client_error
+client.connection.failed.url=${url.prefix}/client_connection_failed
+
+flash.dynamic.icon.download.name.template=%revision%/%typeid%%param%_icon.png
+
+landing.view.background_left.uri=https://images.habbo.com/c_images/reception/jan21_background_left.png
+landing.view.background_right.uri=https://images.habbo.com/c_images/reception/background_right_easter2016.png
+
+game.center.default_game=snowwar
+game.center.enabled.forStaff=false
+game.center.enabled=false
+
+# Making sure the live.environment.list is not tampered with between builds.
+configuration.readonly=true
+
+#Alphabetically ordered hotel list (by domain name)
+live.environment.list=pt/s2

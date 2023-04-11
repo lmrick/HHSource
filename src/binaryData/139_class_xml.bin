@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?><layout name="ude_event" width="228" height="220" version="0.1" uid="964F6444-EFF4-DA15-19EC-8D479F380507">
+  <window>
+    <container x="0" y="0" width="228" height="220" params="17" style="0" name="cont" color="0xffff3d3d3d" background="true">
+      <children>
+        <container x="0" y="0" width="228" height="1" params="16" style="0" name="ruler" color="0xffff232323" background="true"/>
+        <text x="5" y="5" width="218" height="13" params="786432" style="0" name="desc_txt" caption="%24%7Bwiredfurni.params.startdir%7D">
+          <variables>
+            <var key="antialias_type" value="advanced" type="String"/>
+            <var key="font_face" value="Volter Bold" type="String"/>
+            <var key="text_color" value="0xffffff" type="hex"/>
+            <var key="mouse_wheel_enabled" value="false" type="Boolean"/>
+            <var key="sharpness" value="0" type="Number"/>
+            <var key="thickness" value="0" type="Number"/>
+            <var key="word_wrap" value="true" type="Boolean"/>
+            <var key="kerning" value="false" type="Boolean"/>
+            <var key="spacing" value="0" type="Number"/>
+            <var key="leading" value="0" type="Number"/>
+          </variables>
+        </text>
+        <selector x="5" y="21" width="218" height="37" params="17" style="0" name="startdir_selector">
+          <children>
+            <radiobutton x="0" y="0" width="20" height="20" params="17" style="1" name="startdir_0_radio"/>
+            <bitmap x="17" y="0" width="15" height="15" params="17" style="0" name="move_0"/>
+            <radiobutton x="55" y="0" width="20" height="20" params="17" style="1" name="startdir_1_radio" id="1"/>
+            <bitmap x="72" y="0" width="15" height="15" params="17" style="0" name="move_1"/>
+            <radiobutton x="110" y="0" width="20" height="20" params="17" style="1" name="startdir_2_radio" id="2"/>
+            <bitmap x="127" y="0" width="15" height="15" params="17" style="0" name="move_2"/>
+            <radiobutton x="165" y="0" width="20" height="20" params="17" style="1" name="startdir_3_radio" id="3"/>
+            <bitmap x="182" y="0" width="15" height="15" params="17" style="0" name="move_3"/>
+            <radiobutton x="0" y="20" width="20" height="20" params="17" style="1" name="startdir_4_radio" id="4"/>
+            <bitmap x="17" y="20" width="15" height="15" params="17" style="0" name="move_4"/>
+            <radiobutton x="55" y="20" width="20" height="20" params="17" style="1" name="startdir_5_radio" id="5"/>
+            <bitmap x="72" y="20" width="15" height="15" params="17" style="0" name="move_5"/>
+            <radiobutton x="110" y="20" width="20" height="20" params="17" style="1" name="startdir_6_radio" id="6"/>
+            <bitmap x="127" y="20" width="15" height="15" params="17" style="0" name="move_6"/>
+            <radiobutton x="165" y="20" width="20" height="20" params="17" style="1" name="startdir_7_radio" id="7"/>
+            <bitmap x="182" y="20" width="15" height="15" params="17" style="0" name="move_7"/>
+          </children>
+        </selector>
+        <container x="0" y="62" width="228" height="1" params="16" style="0" name="ruler" color="0xffff232323" background="true"/>
+        <text x="5" y="67" width="218" height="13" params="786432" style="0" name="desc_txt" caption="%24%7Bwiredfurni.params.turn%7D">
+          <variables>
+            <var key="antialias_type" value="advanced" type="String"/>
+            <var key="font_face" value="Volter Bold" type="String"/>
+            <var key="text_color" value="0xffffff" type="hex"/>
+            <var key="mouse_wheel_enabled" value="false" type="Boolean"/>
+            <var key="sharpness" value="0" type="Number"/>
+            <var key="thickness" value="0" type="Number"/>
+            <var key="word_wrap" value="true" type="Boolean"/>
+            <var key="kerning" value="false" type="Boolean"/>
+            <var key="spacing" value="0" type="Number"/>
+            <var key="leading" value="0" type="Number"/>
+          </variables>
+        </text>
+        <selector x="5" y="83" width="218" height="137" params="17" style="0" name="turn_selector">
+          <children>
+            <radiobutton x="0" y="0" width="20" height="20" params="17" style="1" name="turn_0_radio"/>
+            <text x="20" y="0" width="190" height="13" params="0" style="0" caption="%24%7Bwiredfurni.params.turn.0%7D">
+              <variables>
+                <var key="antialias_type" value="advanced" type="String"/>
+                <var key="text_color" value="0xffffff" type="hex"/>
+                <var key="mouse_wheel_enabled" value="false" type="Boolean"/>
+                <var key="sharpness" value="0" type="Number"/>
+                <var key="thickness" value="0" type="Number"/>
+                <var key="kerning" value="false" type="Boolean"/>
+                <var key="spacing" value="0" type="Number"/>
+                <var key="leading" value="0" type="Number"/>
+              </variables>
+            </text>
+            <radiobutton x="0" y="20" width="20" height="20" params="17" style="1" name="turn_1_radio" id="1"/>
+            <text x="20" y="20" width="190" height="13" params="0" style="0" caption="%24%7Bwiredfurni.params.turn.1%7D">
+              <variables>
+                <var key="antialias_type" value="advanced" type="String"/>
+                <var key="text_color" value="0xffffff" type="hex"/>
+                <var key="mouse_wheel_enabled" value="false" type="Boolean"/>
+                <var key="sharpness" value="0" type="Number"/>
+                <var key="thickness" value="0" type="Number"/>
+                <var key="kerning" value="false" type="Boolean"/>
+                <var key="spacing" value="0" type="Number"/>
+                <var key="leading" value="0" type="Number"/>
+              </variables>
+            </text>
+            <radiobutton x="0" y="40" width="20" height="20" params="17" style="1" name="turn_2_radio" id="2"/>
+            <text x="20" y="40" width="190" height="13" params="0" style="0" caption="%24%7Bwiredfurni.params.turn.2%7D">
+              <variables>
+                <var key="antialias_type" value="advanced" type="String"/>
+                <var key="text_color" value="0xffffff" type="hex"/>
+                <var key="mouse_wheel_enabled" value="false" type="Boolean"/>
+                <var key="sharpness" value="0" type="Number"/>
+                <var key="thickness" value="0" type="Number"/>
+                <var key="kerning" value="false" type="Boolean"/>
+                <var key="spacing" value="0" type="Number"/>
+                <var key="leading" value="0" type="Number"/>
+              </variables>
+            </text>
+            <radiobutton x="0" y="60" width="20" height="20" params="17" style="1" name="turn_3_radio" id="3"/>
+            <text x="20" y="60" width="190" height="13" params="0" style="0" caption="%24%7Bwiredfurni.params.turn.3%7D">
+              <variables>
+                <var key="antialias_type" value="advanced" type="String"/>
+                <var key="text_color" value="0xffffff" type="hex"/>
+                <var key="mouse_wheel_enabled" value="false" type="Boolean"/>
+                <var key="sharpness" value="0" type="Number"/>
+                <var key="thickness" value="0" type="Number"/>
+                <var key="kerning" value="false" type="Boolean"/>
+                <var key="spacing" value="0" type="Number"/>
+                <var key="leading" value="0" type="Number"/>
+              </variables>
+            </text>
+            <radiobutton x="0" y="80" width="20" height="20" params="17" style="1" name="turn_4_radio" id="4"/>
+            <text x="20" y="80" width="190" height="13" params="0" style="0" caption="%24%7Bwiredfurni.params.turn.4%7D">
+              <variables>
+                <var key="antialias_type" value="advanced" type="String"/>
+                <var key="text_color" value="0xffffff" type="hex"/>
+                <var key="mouse_wheel_enabled" value="false" type="Boolean"/>
+                <var key="sharpness" value="0" type="Number"/>
+                <var key="thickness" value="0" type="Number"/>
+                <var key="kerning" value="false" type="Boolean"/>
+                <var key="spacing" value="0" type="Number"/>
+                <var key="leading" value="0" type="Number"/>
+              </variables>
+            </text>
+            <radiobutton x="0" y="100" width="20" height="20" params="17" style="1" name="turn_5_radio" id="5"/>
+            <text x="20" y="100" width="190" height="13" params="0" style="0" caption="%24%7Bwiredfurni.params.turn.5%7D">
+              <variables>
+                <var key="antialias_type" value="advanced" type="String"/>
+                <var key="text_color" value="0xffffff" type="hex"/>
+                <var key="mouse_wheel_enabled" value="false" type="Boolean"/>
+                <var key="sharpness" value="0" type="Number"/>
+                <var key="thickness" value="0" type="Number"/>
+                <var key="kerning" value="false" type="Boolean"/>
+                <var key="spacing" value="0" type="Number"/>
+                <var key="leading" value="0" type="Number"/>
+              </variables>
+            </text>
+            <radiobutton x="0" y="120" width="20" height="20" params="17" style="1" name="turn_6_radio" id="6"/>
+            <text x="20" y="120" width="190" height="13" params="0" style="0" caption="%24%7Bwiredfurni.params.turn.6%7D">
+              <variables>
+                <var key="antialias_type" value="advanced" type="String"/>
+                <var key="text_color" value="0xffffff" type="hex"/>
+                <var key="mouse_wheel_enabled" value="false" type="Boolean"/>
+                <var key="sharpness" value="0" type="Number"/>
+                <var key="thickness" value="0" type="Number"/>
+                <var key="kerning" value="false" type="Boolean"/>
+                <var key="spacing" value="0" type="Number"/>
+                <var key="leading" value="0" type="Number"/>
+              </variables>
+            </text>
+          </children>
+        </selector>
+      </children>
+    </container>
+  </window>
+</layout>

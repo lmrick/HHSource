@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><layout name="ude_addon_inputs_0" width="228" height="65" version="0.1" uid="383AC824-5DB3-66A4-F6D4-D79FDEFC6E3B">
+  <window>
+    <container x="0" y="0" width="228" height="65" params="17" style="0" name="cont" color="0xffff3d3d3d" background="true">
+      <children>
+        <container x="0" y="0" width="228" height="1" params="16" style="0" name="ruler" color="0xffff232323" background="true"/>
+        <text x="5" y="5" width="218" height="60" params="786432" style="0" name="desc_txt" caption="%24%7Bwiredfurni.params.cond_eval.note%7D">
+          <variables>
+            <var key="text_color" value="0xffffff" type="hex"/>
+            <var key="mouse_wheel_enabled" value="false" type="Boolean"/>
+            <var key="sharpness" value="0" type="Number"/>
+            <var key="thickness" value="0" type="Number"/>
+            <var key="word_wrap" value="true" type="Boolean"/>
+            <var key="kerning" value="false" type="Boolean"/>
+            <var key="spacing" value="0" type="Number"/>
+            <var key="leading" value="0" type="Number"/>
+          </variables>
+        </text>
+      </children>
+    </container>
+  </window>
+</layout>
